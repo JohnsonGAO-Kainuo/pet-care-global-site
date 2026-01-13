@@ -4,13 +4,13 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const partners = [
-  { name: 'Shopify', logo: '/images/aa92eb81-94a6-4142-9eb5-7c2df0e63c10', type: 'image' },
-  { name: 'Spotify', logo: '/images/89576889-e0fb-4a72-a223-16242a19dbbf', type: 'image' },
-  { name: 'Microsoft', logo: '/images/37a23d9b-0f83-4caf-86cf-1e855b12e318', type: 'image' },
-  { name: 'Nestle', logo: '/images/69617069-69b5-499e-82d1-9d08a6e7da2b', type: 'image' },
+  { name: 'Shopify', logo: '/images/aa92eb81-94a6-4142-9eb5-7c2df0e63c10.png', type: 'image' },
+  { name: 'Spotify', logo: '/images/89576889-e0fb-4a72-a223-16242a19dbbf.png', type: 'image' },
+  { name: 'Microsoft', logo: '/images/37a23d9b-0f83-4caf-86cf-1e855b12e318.png', type: 'image' },
+  { name: 'Nestle', logo: '/images/69617069-69b5-499e-82d1-9d08a6e7da2b.png', type: 'image' },
   { name: 'MARS Petcare', text: 'MARS', sub: 'Petcare', type: 'text', color: '#33377c', subColor: '#a94f50' },
-  { name: 'Hills', logo: '/images/1483a20c-5f59-4e54-9b28-14bd0285d540', type: 'image' },
-  { name: 'Royal Canin', logo: '/images/78bc54ae-a34a-49b1-a24d-fab7e470998b', type: 'image' },
+  { name: 'Hills', logo: '/images/1483a20c-5f59-4e54-9b28-14bd0285d540.png', type: 'image' },
+  { name: 'Royal Canin', logo: '/images/78bc54ae-a34a-49b1-a24d-fab7e470998b.png', type: 'image' },
   { name: 'Chewy', text: 'chewy', type: 'text', color: '#3d76a0' },
   { name: 'Amazon', text: 'amazon', type: 'text', color: '#51514f' },
   { name: 'Petco', text: 'petco.', type: 'text', color: '#505c74' },
@@ -21,7 +21,7 @@ export function Partners() {
     <section className="w-full flex justify-center bg-[#fdfdfc] py-16 relative overflow-hidden">
         {/* Background image */}
         <div className="absolute top-0 right-0 w-full h-full opacity-10 pointer-events-none">
-            <Image src="/images/14a7be3f-c79c-41bc-8fd9-920546cba873" fill alt="bg" className="object-cover" />
+            <Image src="/images/14a7be3f-c79c-41bc-8fd9-920546cba873.png" fill alt="bg" className="object-cover" />
         </div>
 
       <div className="w-[800px] relative z-10 px-8">

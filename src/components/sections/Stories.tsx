@@ -8,13 +8,13 @@ const stories = [
     text: `"Your team has delivered high construction and check for delivery. It helped increase revenue and the collaboration helped to streamline product flow simply allowing the system to scale. Our Brand are partnering to hire amazing pros."`,
     author: 'Mateo Baah',
     role: 'Operations Lead',
-    image: '/images/68a8ff05-c074-408e-a05d-1cdabccfaf5a'
+    image: '/images/68a8ff05-c074-408e-a05d-1cdabccfaf5a.png'
   },
   {
     text: `"You are motivated but New vacation Delivery out are sourcing or doing with to execute supply curves. With government and protocols next and-adds count Ingenuities the freely call of time for contraction everywhere."`,
     author: 'Sown Bcreutth',
     role: 'Affiliate Manager',
-    image: '/images/e53a7345-823b-4b2d-ace6-953784615b8f'
+    image: '/images/e53a7345-823b-4b2d-ace6-953784615b8f.png'
   }
 ];
 

@@ -15,7 +15,7 @@ export function Navbar() {
       >
         <div className="flex items-center gap-2">
           <Image 
-            src="/images/ee2c9d64-7788-4018-9e2d-2f1191100959" 
+            src="/images/ee2c9d64-7788-4018-9e2d-2f1191100959.png" 
             alt="Logo" 
             width={20} 
             height={20} 

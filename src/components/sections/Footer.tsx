@@ -23,7 +23,7 @@ export function Footer() {
                   Email
                 </div>
               </div>
-              <button className="bg-[url('/images/08d0e121-3777-4245-b076-8e3904ffc470')] bg-contain bg-no-repeat w-[84px] h-[37px] flex items-center justify-center text-[11px] text-[#7f661e] mb-2">
+              <button className="bg-[url('/images/08d0e121-3777-4245-b076-8e3904ffc470.png')] bg-contain bg-no-repeat w-[84px] h-[37px] flex items-center justify-center text-[11px] text-[#7f661e] mb-2">
                  Subscribe
               </button>
            </div>
@@ -62,7 +62,7 @@ export function Footer() {
             </div>
         </div>
 
-        <Image src="/images/ef422a19-d3a4-44a5-8674-2eb2f9fa2bb8" alt="divider" width={670} height={2} className="w-full h-[1px] object-cover opacity-50 mb-2" />
+        <Image src="/images/ef422a19-d3a4-44a5-8674-2eb2f9fa2bb8.png" alt="divider" width={670} height={2} className="w-full h-[1px] object-cover opacity-50 mb-2" />
 
         <div className="flex justify-between items-center text-[10px] text-[#566378] px-4">
             <div>Copyright 2024 PetCare Corporation</div>

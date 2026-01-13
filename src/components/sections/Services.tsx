@@ -7,22 +7,22 @@ const services = [
   {
     title: 'Wholesale & Distribution',
     desc: 'Wholesale & distribution, at prime locations, and supermarkets & distribution.',
-    icon: '/images/321445df-cc4c-4575-a9fc-4c3df9178057'
+    icon: '/images/321445df-cc4c-4575-a9fc-4c3df9178057.png'
   },
   {
     title: 'Brand Development',
     desc: 'Development strategies administer and brand brand development.',
-    icon: '/images/5a892cd2-ba3a-4528-9fc7-7946071a957d'
+    icon: '/images/5a892cd2-ba3a-4528-9fc7-7946071a957d.png'
   },
   {
     title: 'Market Expansion',
     desc: 'Company-wide business, market expansion and market expansion.',
-    icon: '/images/d9edb31c-b532-45bb-8c10-56977a6d03a8'
+    icon: '/images/d9edb31c-b532-45bb-8c10-56977a6d03a8.png'
   },
   {
     title: 'Logistics Solutions',
     desc: 'Network optimization and automation and logistics solutions.',
-    icon: '/images/d9b1a46f-b90c-4bfe-a0cf-03e1d28bd966'
+    icon: '/images/d9b1a46f-b90c-4bfe-a0cf-03e1d28bd966.png'
   }
 ];
 
@@ -30,7 +30,7 @@ export function Services() {
   return (
     <section className="w-full flex justify-center bg-[#fdfdfc] py-16 relative">
       <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-          <Image src="/images/a9b3f997-ba9f-42ac-ac0b-666049524a58" fill alt="bg" className="object-cover" />
+          <Image src="/images/a9b3f997-ba9f-42ac-ac0b-666049524a58.png" fill alt="bg" className="object-cover" />
       </div>
 
       <div className="w-[800px] relative z-10 px-8">

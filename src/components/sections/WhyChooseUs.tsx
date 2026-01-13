@@ -7,17 +7,17 @@ const features = [
   {
     title: 'Global Reach',
     desc: 'Global Reach into varied global markets international sourcing managed to expand our list.',
-    icon: '/images/5b30263d-f81d-44aa-8ba3-d9853308b7cc'
+    icon: '/images/5b30263d-f81d-44aa-8ba3-d9853308b7cc.png'
   },
   {
     title: 'Premium Quality',
     desc: 'Secure soft premium quality wholesale domestic and international and froremium premium quality.',
-    icon: '/images/0cd5169c-c66c-4969-bf5a-1bb02e94f55d'
+    icon: '/images/0cd5169c-c66c-4969-bf5a-1bb02e94f55d.png'
   },
   {
     title: 'Reliable Logistics',
     desc: 'Logistics, predictable reliable logistics.',
-    icon: '/images/f21dc6ff-68f2-4ed8-9899-838680aaf6d2'
+    icon: '/images/f21dc6ff-68f2-4ed8-9899-838680aaf6d2.png'
   }
 ];
 

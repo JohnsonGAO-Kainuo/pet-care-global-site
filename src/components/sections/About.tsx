@@ -15,7 +15,7 @@ export function About() {
           className="flex-1 relative h-[220px] w-full"
         >
           <Image 
-            src="/images/e8bbc787-ee73-4f77-9532-4fa4668eb09a" 
+            src="/images/e8bbc787-ee73-4f77-9532-4fa4668eb09a.png" 
             fill 
             alt="About Us" 
             className="object-cover rounded-sm"
@@ -38,7 +38,7 @@ export function About() {
              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
 
-          <button className="flex items-center justify-end bg-[url('/images/d4b46d0e-4f24-48bc-b159-ea8e1abacd87')] bg-contain bg-no-repeat w-[94px] h-[34px] text-[#896c26] text-[11px] font-bold pr-4 pb-1 hover:brightness-105 transition-all">
+          <button className="flex items-center justify-end bg-[url('/images/d4b46d0e-4f24-48bc-b159-ea8e1abacd87.png')] bg-contain bg-no-repeat w-[94px] h-[34px] text-[#896c26] text-[11px] font-bold pr-4 pb-1 hover:brightness-105 transition-all">
             Learn More
           </button>
         </motion.div>

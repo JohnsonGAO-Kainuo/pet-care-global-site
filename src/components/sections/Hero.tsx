@@ -44,7 +44,7 @@ export function Hero() {
             className="relative h-[330px] w-full"
           >
             <Image 
-              src="/images/ba7d96bd-5847-4211-92ef-072a74150799"
+              src="/images/ba7d96bd-5847-4211-92ef-072a74150799.png"
               alt="Pet Care"
               fill
               className="object-contain object-center"
