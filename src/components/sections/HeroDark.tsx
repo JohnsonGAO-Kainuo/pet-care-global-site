@@ -5,59 +5,61 @@ import { motion } from 'framer-motion';
 
 export function HeroDark() {
   return (
-    <section className="w-full flex justify-center bg-[#0d213b] overflow-hidden pt-20 pb-20 min-h-[600px] relative">
-      {/* Background Image/Pattern if any */}
-      <div className="absolute inset-0 opacity-20">
-         {/* Using one of the background images from Figma */}
+    <section className="w-full flex justify-center bg-[#0d213b] overflow-hidden pt-32 pb-32 min-h-[800px] relative">
+      {/* Background Decorative Image */}
+      <div className="absolute inset-0 opacity-[0.15]">
          <Image src="/images/c08dba2f-c117-474d-bcc5-d2e5027ee6cf.png" fill alt="bg" className="object-cover" />
       </div>
 
-      <div className="max-w-[1400px] w-full relative px-10 z-10">
-        <div className="grid grid-cols-2 gap-10 items-center">
+      <div className="max-w-[1200px] w-full relative px-10 z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex flex-col items-start pl-10"
+            className="flex flex-col items-start"
           >
-            <div className="bg-[#f7c93c] border border-[#ecc961] px-5 py-1.5 mb-8">
-               <span className="text-[#977b25] text-[12px] font-medium uppercase tracking-wider">B2B Market homepage for Pet Wholesale sector</span>
+            <div className="bg-[#f6c942]/10 border border-[#f6c942]/30 px-5 py-2 mb-10 rounded-full">
+               <span className="text-[#f6c942] text-[12px] font-bold tracking-[0.2em] uppercase">Global Partnership Program</span>
             </div>
 
-            <h1 className="text-[64px] leading-[1.1] font-bold text-white mb-6">
+            <h1 className="text-[72px] leading-[1.05] font-bold text-white mb-8 tracking-[-0.03em]">
               Connecting Quality <br/>
-              Brands with Global <br/>
-              Markets
+              Brands with <br/>
+              Global Markets
             </h1>
             
-            <p className="text-[#d2d4d6] text-[16px] mb-10 max-w-[450px] leading-relaxed font-light">
-              We provide integrated wholesale and distribution solutions for the global pet care industry.
+            <p className="text-[#bec5cd] text-[20px] mb-12 max-w-[500px] leading-relaxed font-light">
+              We provide integrated wholesale and distribution solutions for the global pet care industry with precision and scale.
             </p>
 
             <motion.button 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-[#f6c942] border border-[#edd688] rounded-[8px] px-10 py-4 text-[#876b22] text-[14px] font-bold shadow-md hover:shadow-xl transition-all"
+              className="bg-[#f6c942] hover:bg-[#f7d36a] rounded-[8px] px-12 py-5 text-[#0d213b] text-[16px] font-bold shadow-2xl transition-all"
             >
-              Learn More
+              Start Global Partnership
             </motion.button>
           </motion.div>
 
           <motion.div 
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative h-[550px] w-full"
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, delay: 0.3 }}
+            className="relative h-[650px] w-full"
           >
-            {/* The second page usually has a different visual focus, I'll use the placeholder if specific image not found */}
-            <div className="w-full h-full border border-white/10 rounded-2xl bg-white/5 backdrop-blur-sm flex items-center justify-center overflow-hidden">
+            <div className="w-full h-full border border-white/10 rounded-[40px] bg-white/5 backdrop-blur-xl flex items-center justify-center overflow-hidden shadow-[0_0_100px_rgba(246,201,66,0.1)]">
                 <Image 
                     src="/images/ba7d96bd-5847-4211-92ef-072a74150799.png"
                     alt="Pet Care Global"
                     fill
-                    className="object-contain"
+                    className="object-contain p-10"
                 />
             </div>
+            
+            {/* Floating element decorative */}
+            <div className="absolute -top-10 -right-10 w-40 h-40 bg-[#f6c942]/20 rounded-full blur-[80px]"></div>
+            <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-[#33377c]/40 rounded-full blur-[80px]"></div>
           </motion.div>
         </div>
       </div>
