@@ -1,23 +1,15 @@
-import { Navbar } from "@/components/sections/Navbar";
-import { HeroDistribution } from "@/components/sections/HeroDistribution";
-import { Partners } from "@/components/sections/Partners";
-import { Services } from "@/components/sections/Services";
-import { About } from "@/components/sections/About";
-import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
-import { SuccessStories } from "@/components/sections/Stories";
-import { Footer } from "@/components/sections/Footer";
+import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
+import { DistributionHero, DistributionFeatured, DistributionWhy } from "@/components/sections/distribution/DistributionPage";
 
 export default function DistributionPage() {
   return (
-    <main className="min-h-screen bg-[#fdfdfc]">
+    <main className="min-h-screen bg-[#FDFDFC]">
       <Navbar />
-      <HeroDistribution />
-      <Partners />
-      <Services />
-      <About />
-      <WhyChooseUs />
-      <SuccessStories />
-      <Footer />
+      <DistributionHero />
+      <DistributionFeatured />
+      <DistributionWhy />
+      <Footer brand="GloCare" />
     </main>
   );
 }
