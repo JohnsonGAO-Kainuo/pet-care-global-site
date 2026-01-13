@@ -18,40 +18,40 @@ const partners = [
 
 export function Partners() {
   return (
-    <section className="w-full flex justify-center bg-[#fdfdfc] py-16 relative overflow-hidden">
-        {/* Background image */}
-        <div className="absolute top-0 right-0 w-full h-full opacity-10 pointer-events-none">
+    <section className="w-full flex justify-center bg-[#fdfdfc] py-24 relative overflow-hidden">
+        {/* Background Decorative Image */}
+        <div className="absolute inset-0 opacity-5 pointer-events-none">
             <Image src="/images/14a7be3f-c79c-41bc-8fd9-920546cba873.png" fill alt="bg" className="object-cover" />
         </div>
 
-      <div className="w-[800px] relative z-10 px-8">
-        <div className="text-center mb-10">
-          <h2 className="text-[25px] font-bold text-[#424140] mb-1">Trusted Partners</h2>
-          <p className="text-[10px] font-bold text-[#a6a6a4]">Our trusted partners, shopify, spotify, nestle, invested partners</p>
+      <div className="max-w-[1200px] w-full relative z-10 px-10">
+        <div className="text-center mb-20">
+          <h2 className="text-[32px] font-bold text-[#424140] mb-4">Trusted Partners</h2>
+          <p className="text-[14px] text-[#a6a6a4] font-medium tracking-wide">Our trusted partners include Shopify, Spotify, Nestle, and other industry leaders.</p>
         </div>
 
-        <div className="flex flex-wrap justify-center items-center gap-8 grayscale hover:grayscale-0 transition-all duration-500">
+        <div className="flex flex-wrap justify-center items-center gap-x-16 gap-y-12 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transition-all duration-700">
           {partners.map((partner, index) => (
             <motion.div 
               key={index}
-              initial={{ opacity: 0, y: 15 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.05 }}
-              className="flex items-center justify-center transform hover:scale-105 transition-transform"
+              className="flex items-center justify-center transform transition-transform hover:scale-110"
             >
               {partner.type === 'image' && partner.logo && (
-                <div className="flex items-center gap-2">
-                    <Image src={partner.logo} alt={partner.name} width={40} height={40} className="object-contain max-h-[40px]" />
+                <div className="flex items-center gap-3">
+                    <Image src={partner.logo} alt={partner.name} width={48} height={48} className="object-contain h-12 w-auto" />
                     {['Shopify', 'Spotify', 'Nestle', 'Microsoft'].includes(partner.name) && (
-                      <span className="font-bold text-[18px] text-[#3d3d3c] ml-1">{partner.name}</span>
+                      <span className="font-bold text-[22px] text-[#3d3d3c]">{partner.name}</span>
                     )}
                 </div>
               )}
               {partner.type === 'text' && (
-                <div className="flex flex-col items-start leading-none">
-                  <span style={{ color: partner.color }} className="text-[20px] font-bold">{partner.text}</span>
-                  {partner.sub && <span style={{ color: partner.subColor }} className="text-[16px] font-bold">{partner.sub}</span>}
+                <div className="flex flex-col items-start leading-none gap-0.5">
+                  <span style={{ color: partner.color }} className="text-[28px] font-extrabold uppercase tracking-tight">{partner.text}</span>
+                  {partner.sub && <span style={{ color: partner.subColor }} className="text-[18px] font-bold tracking-tighter">{partner.sub}</span>}
                 </div>
               )}
             </motion.div>
